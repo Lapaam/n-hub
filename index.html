@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="file:///C:/Users/LAPAAM/Desktop/backup/setups/bootstraps/bootstrap-4.5.2/dist/css/bootstrap.min.css">
+    <script src="file:///C:/Users/LAPAAM/Desktop/backup/setups/bootstraps/bootstrap-4.5.2/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="file:///C:/Users/LAPAAM/Desktop/backup/setups/icon%20codes/fontawesome-free-5.14.0-web/css/all.css">
+ 
+    <style>
+        .jumbotron{
+            background-image: url("EOT_blue.jpg");
+            text-align: center;
+        }
+        .input-group{
+          background-color: rgb(216, 216, 212);
+        }
+      .last{
+          margin-left: 40%;
+      }
+      #appsummary{
+        text-align: center;
+        margin:50px;
+      }
+      #footer{
+        background-color: rgb(163, 219, 219);
+        padding-top:50px;
+        margin-top: 50px;
+        text-align:center;
+      }
+      #playstore{
+        margin-bottom: 20px;
+      }
+      body{
+        position: relative;
+      }
+
+    @media only screen and (max-width:760px){
+      .last{
+        position: relative;
+        left: -20%;
+      } 
+    }
+    </style>
+    <title>Document</title>
+</head>
+<body data-spy="scroll" data-target="#navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+        <a class="navbar-brand" href="#">My App</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer">Download The App</a>
+        </li>
+          </ul>
+        
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="email" placeholder="email" aria-label="Search">
+            <input class="form-control mr-sm-2" type="password" placeholder="password" aria-label="Search">
+            <button class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
+          </form>
+
+        
+        </div>
+      </nav>
+
+      <div class="jumbotron">
+        <h1 class="display-4">My Awesome App</h1>
+        <p class="lead">This is why you should download this App</p>
+        <hr class="my-4">
+        <p>Want to Know more? Join our mailing list!</p>
+
+
+        <div class="last">
+        <form class="form-inline">
+            <div class="form-grounp">
+                <label class="sr-only" for="email">email address</label>
+                <div class="input-group">
+                    <div class="input-group">@</div>
+                    <input type="email" class="form-control" id="email" placeholder="your email">
+                    <a class="btn btn-primary btn-md" href="#" role="button">Sign Up</a>
+                </div>
+            </div>
+        </form>
+        </div>
+</div>
+
+<div class="container" id="about">
+    <div id="appsummary" >
+        <h1>Why this app is so awesome</h1>
+        <p>Summary, once again of your Apps awesomeness</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="card-deck">
+      <div class="card">
+        <img src="Nike_rev lite.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><i class="fa fa-anchor"></i>Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="EOT blue.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> <i class="fa fa-anchor"></i>Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="adidas_skyblue.jpg" class="card-img-top" alt="..." height="230rem">
+        <div class="card-body">
+          <h5 class="card-title"> <i class="fa fa-anchor"></i>Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div id="footer">
+  <div>
+    <h2> Download The App</h2>
+    <p>Really why you should download the app</p>
+    <p><a href="#"><img  id="playstore"
+      src="play-store.png" alt="app-store" width="200px"></a></p>
+  </div>
+</div>
+</body>
+</html>
